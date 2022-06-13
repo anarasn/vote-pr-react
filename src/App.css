@@ -1,7 +1,32 @@
 .App {
   text-align: center;
 }
-
+.img{
+  width:150px;
+  height: 150px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.container-data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-description{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 2rem 0.5rem;
+  border: solid;
+  padding: 1rem ;
+}
+.winner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
